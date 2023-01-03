@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.container .all {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(243.33px,1fr));
+  width: 730px;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.container .all .box {
+  padding: 40px;
+}
+.container .all .box-1{
+  background-color: hsl(31, 77%, 52%);
+}
+.container .all .box-2{
+  background-color: hsl(184, 100%, 22%);
+}
+.container .all .box-3{
+  background-color: hsl(179, 100%, 13%);
+}
+.container .all .box img{
+  width: 50px;
+  margin-bottom: 20px;
+}
+.container .all .box h2{
+  font-size: 30px;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 20px;
+}
+.container .all .box p{
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+  margin-bottom: 83px;
+}
+.container .all .box-1 .botton{
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  width: fit-content;
+  padding: 11px 23px;
+  border-radius: 50px;
+  font-size: 12px;
+  border: 2px solid white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .all .box-1 .botton:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+.container .all .box-2 .botton{
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  width: fit-content;
+  padding: 11px 23px;
+  border-radius: 50px;
+  font-size: 12px;
+  border: 2px solid white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .all .box-2 .botton:hover{
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+.container .all .box-3 .botton{
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  width: fit-content;
+  padding: 11px 23px;
+  border-radius: 50px;
+  font-size: 12px;
+  border: 2px solid white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .all .box-3 .botton:hover{
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
